@@ -1,3 +1,28 @@
+body{
+    background: #f3eae2;
+    font-size: 14px;
+font-family: 'Fraunces', serif;
+    font-family: 'Merriweather', serif;
+}
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.perfume {
+    text-transform: uppercase;
+}
+
+.new-price {
+    color:#3d8168;
+}
+
+.cart {
+    background: #3d8168;
+    color: white;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
