@@ -1,8 +1,31 @@
 body{
-    background: #f3eae2;
-    font-size: 14px;
-font-family: 'Fraunces', serif;
+    background: #FAEBD7;
+     font-family: 'Fraunces', serif;
     font-family: 'Merriweather', serif;
+    text-align: center;
+        
+}
+
+p {
+    font-size: 14px;
+}
+
+#main-container {
+    display: flex;
+     justify-content: center;
+    margin: 0 0 10px 40px;
+}
+
+.left-side img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-side{
+    background:#fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
 .perfume {
@@ -13,9 +36,16 @@ font-family: 'Fraunces', serif;
     color:#3d8168;
 }
 
+.old-price {
+    text-decoration: line-through;
+}
+
 .cart {
     background: #3d8168;
     color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .attribution { 
@@ -26,3 +56,5 @@ font-family: 'Fraunces', serif;
 .attribution a { 
     color: hsl(228, 45%, 44%);
 }
+/* Media Query */
+/* @media only screen and (max-width: ) */
