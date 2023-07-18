@@ -12,9 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&family=Merriweather&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Frontend Mentor | Product preview card component</title>
 
@@ -23,22 +23,25 @@
 
 <body>
     <div id="main-container">
-        <div class="left-side">
-<img src="/images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum">
+        <div id="left" class="left-side">
+            <img src="/images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum">
         </div> <!-- end of left side -->
 
-        <div class="right-side">
+        <div id="right" class="right-side">
             <p class="perfume">Perfume</p>
             <h1>Gabrielle Essence Eau De Parfum</h1>
             <p class="product-desc">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
             
+            <div id="pricing">
             <p class="new-price">&dollar;149.99</p>
             <p class="old-price">&dollar;169.99</p>
+            </div>
             <i class="fa-light fa-cart-shopping fa-2xs"></i>
             <button class="cart" type="button">Add to Cart</button>
 
         </div> <!-- end of right side -->
     </div>    <!-- end of main-container -->
+
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Shannon Posey</a>.
