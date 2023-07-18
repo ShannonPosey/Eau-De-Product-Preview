@@ -44,9 +44,9 @@ p {
     padding-left: 30px;
 }
 
-.product-desc {
+/* .product-desc {
     
-}
+} */
 
 #pricing{
     display: flex;
@@ -65,17 +65,21 @@ p {
     margin-top: 50px;
    }
 
-.fa-cart-shopping {
-    color: #fff;
-}
 
 .cart {
     background: #3d8168;
     color: white;
     width: 200px;
-    height: 30px;
-    border-radius: 5px;
-     }
+    height: 45px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cart img {
+    padding-right: 15px;
+    margin-top: 1px;
+    height: 20px;
+}
 
 .attribution { 
     font-size: 11px; 
